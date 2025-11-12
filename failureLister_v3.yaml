@@ -1,7 +1,7 @@
 title: condor job failer lister
 description: List job failures in a condor task along with associated error
 authors:
-  - name: Homer NEal
+  - name: Homer Neal
     slack: homer
 tags:
   - cm
