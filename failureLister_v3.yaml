@@ -1,0 +1,16 @@
+title: condor job failer lister
+description: List job failures in a condor task along with associated error
+authors:
+  - name: Homer NEal
+    slack: homer
+tags:
+  - cm
+parameters:
+  submitHead:
+    type: string
+    description: parent of workflow directory
+    default: /sdf/data/rubin/shared/campaigns/LSSTCam-Nightly-Validation-CC/
+  tasksHead:
+    type: string
+    description: parent of task directory
+    default: DM-50157_20250609/submit/LSSTCam/runs/nightlyValidation/20250609/d_2025_06_09/DM-50157
