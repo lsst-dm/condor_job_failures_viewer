@@ -7,9 +7,9 @@ parameters:
   submitHead:
     type: string
     description: parent of workflow directory
-    default: /sdf/data/rubin/shared/campaigns/LSSTCam-Nightly-Validation-CC/
+    default: "/sdf/data/rubin/shared/campaigns/LSSTCam-Nightly-Validation-CC/"
     
   tasksHead:
     type: string
     description: parent of task directory
-    default: DM-50157_20250609/submit/LSSTCam/runs/nightlyValidation/20250609/d_2025_06_09/DM-50157
+    default: "DM-50157_20250609/submit/LSSTCam/runs/nightlyValidation/20250609/d_2025_06_09/DM-50157"
