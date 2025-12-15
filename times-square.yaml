@@ -1,3 +1,4 @@
 enabled: true
 description: >
   Times Square condor failed job lister notebook.
+  Specify the work flow path without /sdf in front.
