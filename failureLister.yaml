@@ -1,0 +1,11 @@
+title: condor job failer lister
+description: List job failures in a condor task along with associated error
+authors:
+  - name: Homer Neal
+    slack: homer
+
+parameters:
+  tasksHead:
+    type: string
+    description: parent of tasks directories
+    default: "/home/h/huanlin/shared_campaigns_LSST/DM-53195/submit/LSSTCam/runs/DRP/20250421_20250921/d_2025_11_10/DM-53195/"
